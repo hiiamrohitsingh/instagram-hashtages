@@ -1,0 +1,113 @@
+.post-container {
+    margin: 20px auto;
+}
+
+.post-row .col-md-9,
+.col-md-3 {
+    margin: 10px 0;
+}
+
+.post-row .col-md-9 .card {
+    margin: 10px 0;
+}
+
+.post-row .col-md-3 .card {
+    position: sticky;
+    top: 30px;
+}
+
+@media (max-width:768px) {
+    .post-row .col-md-3 {
+        order: 5;
+    }
+}
+
+.post-row .col-md-9 .card:first-child {
+    margin-top: 0;
+}
+
+.post-row .col-md-9 .card:last-child {
+    margin-bottom: 0;
+}
+
+.post-row .post-nav {
+    margin: 0 !important;
+}
+
+.post-row .card {
+    text-align: center;
+    box-shadow: 0 1px 4px 0 rgb(0 106 194 / 20%);
+}
+
+.post-row .card-title {
+    font-size: 25px;
+    background: linear-gradient(to right, #F56040 0%, #FCAF45 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.post-row .card a {
+    color: #fff;
+    margin: 20px 0;
+    border: 0;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+/* lables css */
+
+.lables-clouds {
+    margin: 30px auto;
+}
+
+.lables-clouds .col-md-12 {
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 1px 4px 0 rgb(0 106 194 / 20%);
+}
+
+.lables-clouds .labels {
+    margin: 2px;
+    display: inline-block;
+    padding: 3px 6px;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+.lables-clouds .labels svg {
+    width: 20px;
+    height: 20px;
+    fill: #ff3f3a;
+    font-weight: 800;
+}
+
+.lables-clouds .labels a {
+    text-transform: capitalize;
+    font-weight: 500;
+    text-decoration: none;
+    background: linear-gradient(to right, #F56040 0%, #FCAF45 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* pagination */
+
+.pagination {
+    margin: 0;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.pagination svg {
+    width: 32px;
+    height: 32px;
+    fill: #F56040;
+}
+
+.navbar-brand{
+    color: #fff !important;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius:5px;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
